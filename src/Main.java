@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("-----------Первая Команда-----------");
@@ -27,7 +28,7 @@ public class Main {
         System.out.println(comandor3);
         banda.addWarrior(new Barbarian("Женя", 120, new Sekira(), new LeatherShield()));
         banda.addWarrior(new Archer("Юра", 190, new LongBow(), new RingShield()));
-        for (Warrior i : axes) {
+        for (Warrior i : banda) {
             System.out.println(i);
         }
         System.out.println("Суммарный урон команды равен: " + banda.getAllDamege()
